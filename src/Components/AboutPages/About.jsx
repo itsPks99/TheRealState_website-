@@ -7,7 +7,7 @@ const About = () => {
     <div className="about-container">
       <section id="about-our-company" className="section split-background">
         <div className="image-container">
-          <img src="./public/assets/Logo-01_c095fa15-61d6-4c42-ab73-dc1a44b1a78f.png" alt="Yoglyf Wellness Resort" />
+          <img src="/assets/Logo-01_c095fa15-61d6-4c42-ab73-dc1a44b1a78f.png" alt="Yoglyf Wellness Resort" />
         </div>
         <div className="content">
           <h1>About Our Company</h1>
