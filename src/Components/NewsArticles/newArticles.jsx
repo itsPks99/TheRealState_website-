@@ -18,7 +18,7 @@ const NewsArticles = () => {
       {/* Articles Section */}
       <div className={`articles-section ${isVisible ? "slide-left" : ""}`}>
         <div className="article">
-          <img src="../src/assets/5824c18078a689aa4e2ac622b69dc3cf.webp" alt="Article 1" />
+          <img src="../public/assets/5824c18078a689aa4e2ac622b69dc3cf.webp" alt="Article 1" />
           <div className="article-text">
             <h3>“SECOND HOME: A HOME AWAY FROM CITY HASSLES”</h3>
             <p className="date">
@@ -33,7 +33,7 @@ const NewsArticles = () => {
         </div>
 
         <div className="article">
-          <img src="../src/assets/6a2ce57545447fe8b494ef62ea30ed50.webp" alt="Article 2" />
+          <img src="../public/assets/6a2ce57545447fe8b494ef62ea30ed50.webp" alt="Article 2" />
           <div className="article-text">
             <h3>
               RESPONSIBLE PRACTICES AND SUSTAINABLE LIVING - STAYING IN TUNE

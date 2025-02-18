@@ -12,7 +12,7 @@ const Menu = () => {
     { title: "ABOUT US", link: "/about", dropdown: ["Our Mission", "Our Vision", "Location" ] },
     { title: "LOCATION", link: "/contact" },
     { title: "BUDGET", link: "/budget" },
-    { title: "E BROCHURE", link: "./src/e-brochure.pdf", isPDF: true },
+    { title: "E BROCHURE", link: "./public/e-brochure.pdf", isPDF: true },
     { title: "CONTACT US", link: "/contact" }
   ];
 
@@ -31,7 +31,7 @@ const Menu = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo-container">
-          <a href="/"><img src="./src/assets/Logo-01_52fc29c7-e25d-4daf-abc2-3841b85982db.png" alt="YOGLYF" className="Headerlogo" /></a>
+          <a href="/"><img src="./public/assets/Logo-01_52fc29c7-e25d-4daf-abc2-3841b85982db.png" alt="YOGLYF" className="Headerlogo" /></a>
         </div>
 
         {/* Desktop Menu */}

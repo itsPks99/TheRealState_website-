@@ -7,7 +7,7 @@ const About = () => {
     <div className="about-container">
       <section id="about-our-company" className="section split-background">
         <div className="image-container">
-          <img src="./src/assets/Logo-01_c095fa15-61d6-4c42-ab73-dc1a44b1a78f.png" alt="Yoglyf Wellness Resort" />
+          <img src="./public/assets/Logo-01_c095fa15-61d6-4c42-ab73-dc1a44b1a78f.png" alt="Yoglyf Wellness Resort" />
         </div>
         <div className="content">
           <h1>About Our Company</h1>
@@ -29,7 +29,7 @@ const About = () => {
 
       <section id="our-vision" className="section split-background">
         <div className="image-container">
-          <img src="./src/assets/images/04.jpeg.jpg" alt="Our Vision" />
+          <img src="./public/assets/images/04.jpeg.jpg" alt="Our Vision" />
         </div>
         <div className="content">
           <h2>Our Vision</h2>
@@ -67,13 +67,13 @@ const About = () => {
             and accommodations.</p>
         </div>
         <div className="image-container">
-          <img src="./src/assets/images/04.jpeg.jpg" alt="Our Mission" />
+          <img src="./public/assets/images/04.jpeg.jpg" alt="Our Mission" />
         </div>
       </section>
 
       <section id="what-sets-us-apart" className="section split-background">
         <div className="image-container">
-          <img src="./src/assets/images/02.jpeg.jpg" alt="Our Mission" />
+          <img src="./public/assets/images/02.jpeg.jpg" alt="Our Mission" />
         </div>
         <div className="content">
           <h2>What sets us apart?</h2>
@@ -98,13 +98,13 @@ const About = () => {
           </ul>
         </div>
         <div className="image-container">
-          <img src="./src/assets/images/05.jpeg.jpg" alt="Our Mission" />
+          <img src="./public/assets/images/05.jpeg.jpg" alt="Our Mission" />
         </div>
       </section>
 
       <section id="why-invest" className="section split-background">
       <div className="image-container">
-          <img src="./src/assets/images/01.jpeg.jpg" alt="Rishikesh Location" />
+          <img src="./public/assets/images/01.jpeg.jpg" alt="Rishikesh Location" />
         </div>
         <div className="content">
         <h2>Why invest in our company?</h2>

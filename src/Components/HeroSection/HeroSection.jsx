@@ -3,37 +3,37 @@ import "./herosection.css";
 
 const slides = [
   {
-    image: "../src/assets/537011899.jpg",
+    image: "../public/assets/537011899.jpg",
     title: "NATURE'S NEST",
     subtitle: "A Home Amidst The Auramah Hills",
     buttonText: "LEARN MORE",
   },
   {
-    image: "../src/assets/426110608.jpg",
+    image: "../public/assets/426110608.jpg",
     title: "LUXURY LIVING",
     subtitle: "Experience Elegance in the Hills",
     buttonText: "DISCOVER MORE",
   },
   {
-    image: "../src/assets/5824c18078a689aa4e2ac622b69dc3cf.webp",
+    image: "../public/assets/5824c18078a689aa4e2ac622b69dc3cf.webp",
     title: "SERENE VIEWS",
     subtitle: "Breathtaking Scenery Awaits You",
     buttonText: "EXPLORE NOW",
   },
   {
-    image: "../src/assets/426110608.jpg",
+    image: "../public/assets/426110608.jpg",
     title: "HILLSIDE RETREAT",
     subtitle: "Escape to Tranquility",
     buttonText: "VISIT TODAY",
   },
   {
-    image: "../src/assets/6a2ce57545447fe8b494ef62ea30ed50.webp",
+    image: "../public/assets/6a2ce57545447fe8b494ef62ea30ed50.webp",
     title: "MODERN COMFORT",
     subtitle: "Redefining Luxury Living",
     buttonText: "LEARN MORE",
   },
   {
-    image: "../src/assets/426110608.jpg",
+    image: "../public/assets/426110608.jpg",
     title: "EXCLUSIVE HOMES",
     subtitle: "Your Dream Home in the Hills",
     buttonText: "GET STARTED",
