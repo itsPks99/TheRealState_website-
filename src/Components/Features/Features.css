@@ -2,27 +2,29 @@
 .features-container {
     width: 80%;
     margin: auto;
-    font-family: Arial, sans-serif;
-    /* background-color: #f8f7f4;  */
+    font-family: 'Segoe UI', Tahoma, sans-serif;
     padding: 44px;
   }
   
   /* Layout for Image & Text Section */
   .features-content {
     display: flex;
-    align-items: center;
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Horizontally center items */
     gap: 50px;
     padding: 60px 0;
-  }
+    height: 100%; /* Ensure it takes available height */
+}
+
 
   .icon-box img {
     width: 35%;
     height: 35%;
   }
-  .icon-box img:hover {
+  /* .icon-box img:hover {
     width: 38%;
     height: 38%;
-  }
+  } */
   
   .features-image {
     flex: 1;

@@ -45,13 +45,18 @@
 /* Attractions List */
 .attractions-list {
     flex: 1;
-    background-color: #f2eee0; /* Dark background */
+    background-color: #f2eee0; /* Light background */
     padding: 30px;
     text-align: left;
     border-radius: 8px;
     height: 339px;
     width: 80%;
+    background-image: url('/assets/images/03.jpeg.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
+
 
 .attractions-list ul {
     list-style: none;

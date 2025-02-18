@@ -12,11 +12,11 @@ const NewsArticles = () => {
 
   return (
     <div className="news-container">
-      <h4 className="news-header">OUR RECENT NEWS</h4>
-      <h1 className="news-title">NEWS & ARTICLES</h1>
+      {/* <h4 className="news-header">OUR RECENT NEWS</h4>
+      <h1 className="news-title">NEWS & ARTICLES</h1> */}
 
       {/* Articles Section */}
-      <div className={`articles-section ${isVisible ? "slide-left" : ""}`}>
+      {/* <div className={`articles-section ${isVisible ? "slide-left" : ""}`}>
         <div className="article">
           <img src="/assets/5824c18078a689aa4e2ac622b69dc3cf.webp" alt="Article 1" />
           <div className="article-text">
@@ -48,7 +48,7 @@ const NewsArticles = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Subscribe Section */}
       <div className={`subscribe-section ${isVisible ? "slide-bottom" : ""}`}>

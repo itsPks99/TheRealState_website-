@@ -1,7 +1,7 @@
 .header {
-  background-color: #23262d;
+  background-color: #2058a5;
   width: 100%;
-  /* position: fixed; */
+  position: fixed; 
   top: 0;
   left: 0;
   z-index: 1000;
@@ -183,6 +183,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: bold;
     cursor: pointer;
   }
 
@@ -191,6 +192,7 @@
     border-right: 4px solid transparent;
     border-top: 4px solid #333;
     transition: transform 0.3s ease;
+    display: none;
   }
 
   .mobile-arrow.active {

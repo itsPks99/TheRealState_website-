@@ -6,13 +6,36 @@ import './ContactPage.css';
 const ContactUs = () => {
   return (
     <div className="contact-page">
-      {/* Section 1: Contact Header */}
+
+      {/* Section 1: Contact Header
       <section className="contact-header-section">
         <div className="contact-header-content">
           <h1>Contact Us</h1>
-          <p>We’d love to hear from you! Reach out to us anytime.</p>
+          <p>Join us at Yoglyf to explore the future of real estate
+            converged with wellness. Contact our team today to
+            learn more about our projects, partnership
+            opportunities, and how we can collaborate to build
+            healthier, thriving communities.</p>
         </div>
+      </section> */}
+
+
+      <section className="contact-info-section">
+        <div className="contact-info-image">
+          <img src="/assets/images/01.jpeg.jpg" alt="Contact Info" />
+        </div>
+        <div className="contact-info-box">
+          <h2>Contact Us</h2>
+          <p>Join us at Yoglyf to explore the future of real estate
+            converged with wellness. Contact our team today to
+            learn more about our projects, partnership
+            opportunities, and how we can collaborate to build
+            healthier, thriving communities.</p>
+        </div>
+       
       </section>
+
+
 
       {/* Section 2: Contact Information */}
       <section className="contact-info-section">
@@ -26,7 +49,7 @@ const ContactUs = () => {
           </ul>
         </div>
         <div className="contact-info-image">
-          <img src="/assets/images/01.jpeg.jpg" alt="Contact Info" />
+          <img src="/assets/images/02.jpeg.jpg" alt="Contact Info" />
         </div>
       </section>
 
