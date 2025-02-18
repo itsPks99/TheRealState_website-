@@ -1,0 +1,170 @@
+.testimonial-container {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f8f7f4; /* Matches uploaded design */
+    overflow: hidden; /* Ensures smooth animations */
+    animation: slideInLeft 1s ease-in-out;
+    margin: 28px;
+}
+
+/* Slide-in Animation */
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.testimonial-container h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #222;
+    margin-top: 30px;
+}
+
+/* Testimonial Layout */
+.testimonial-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* Testimonial Text */
+.testimonial-text {
+    flex: 1;
+    text-align: left;
+    max-width: 50%;
+    padding-left: 5%;
+}
+
+.testimonial-text p {
+    font-size: 18px;
+    color: #666;
+    transition: opacity 1s ease-in-out;
+}
+
+.testimonial-text h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    margin-top: 10px;
+}
+
+/* Dots Navigation (Above Read More Button) */
+.text-slider-dots {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.dot.active {
+    background-color: #d88b2c;
+}
+
+/* Read More Button */
+.read-more-btn {
+    background-color: #d88b2c;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out;
+}
+
+.read-more-btn:hover {
+    background-color: #bb7722;
+}
+
+/* YouTube Video */
+.testimonial-video {
+    flex: 1;
+    display: flex;
+    padding-bottom: 50px;
+    /* justify-content: center; */
+}
+
+.testimonial-video iframe {
+    width: 90%;
+    max-width: 560px;
+    border-radius: 8px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.slide-text {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .testimonial-container {
+        width: 86%;
+    }
+
+    .testimonial-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-text {
+        max-width: 90%;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .testimonial-video iframe {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .testimonial-container {
+        width: 86%;
+    }
+
+    .testimonial-text p {
+        font-size: 16px;
+    }
+
+    .testimonial-text h4 {
+        font-size: 16px;
+    }
+
+    .read-more-btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .testimonial-video iframe {
+        width: 100%;
+    }
+}

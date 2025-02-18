@@ -1,0 +1,108 @@
+.floorplan-slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+    position: relative;
+}
+
+.floorplan-content {
+    flex: 1;
+}
+
+.floorplan-content h4 {
+    color: #d88b2c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.floorplan-content h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #222;
+}
+
+.floorplan-info {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f7f5f2;
+    margin-bottom: 5px;
+}
+
+.know-more-btn {
+    background-color: #d88b2c;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.know-more-btn:hover {
+    background-color: #bb7722;
+}
+
+.floorplan-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.floorplan-image img {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+/* Slider Dots */
+.slider-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.dot.active {
+    background-color: black;
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+    .floorplan-slider {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .floorplan-content {
+        margin-bottom: 20px;
+    }
+
+    .floorplan-image img {
+        width: 100%;
+    }
+}

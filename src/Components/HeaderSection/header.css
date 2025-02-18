@@ -1,0 +1,234 @@
+.header {
+  background-color: #23262d;
+  width: 100%;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  position: relative;
+}
+
+.logo-container {
+  z-index: 1001;
+  height: 100px;
+  align-content: center;
+}
+
+.Headerlogo {
+  height: 60px !important;
+  width: auto;
+}
+
+/* Desktop Menu Styles */
+.desktop-menu {
+  display: none;
+}
+
+
+@media (min-width: 1025px) {
+  .desktop-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .menu-item {
+    position: relative;
+  }
+
+  .menu-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .menu-button:hover,
+  .menu-button:focus,
+  .menu-button:active {
+    color: #d4af37;
+    border-bottom: 5px solid #d4af37;
+  }
+
+  .arrow-down {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid white;
+    margin-left: 5px;
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    min-width: 200px;
+    z-index: 1000;
+    display: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .menu-item:hover .dropdown {
+    display: block;
+  }
+
+  .dropdown-item {
+    display: block;
+    padding: 10px 15px;
+    color:black;
+    text-decoration: none;
+    transition: black 0.3s;
+  }
+
+  .dropdown-item:hover {
+    background-color: #23262d;
+    color:#d4af37 ;
+  }
+}
+
+/* Mobile Menu Styles */
+.mobile-menu-toggle {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .mobile-menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    z-index: 1001;
+    cursor: pointer;
+    padding: 10px;
+    color: #f0a500;
+    font-size: 30px;
+  }
+
+  
+
+  .hamburger-icon {
+    width: 24px;
+    height: 18px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .hamburger-icon span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #d4af37;
+    transition: all 0.3s ease;
+  }
+
+  .close-icon {
+    color: #d4af37;
+    font-size: 32px;
+    line-height: 1;
+  }
+
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: fit-content;
+    background-color: #fff;
+    margin: 98px 0px 0px;
+    transition: transform 0.3s ease;
+    overflow-y: auto;
+    z-index: 1000;
+    transform: translateX(-100%);
+  }
+
+  .mobile-menu.active {
+    transform: translateX(100%);
+  }
+
+  .mobile-menu-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .mobile-menu-button {
+    width: 83%;
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+    padding: 15px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .mobile-arrow {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #333;
+    transition: transform 0.3s ease;
+  }
+
+  .mobile-arrow.active {
+    transform: rotate(180deg);
+    display: none;
+  }
+
+  .mobile-dropdown {
+    display: none;
+    padding-left: 20px;
+  }
+
+  .mobile-dropdown.active {
+    display: block;
+  }
+
+  .mobile-dropdown-item {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 14px;
+  }
+
+  .mobile-menu-button.active {
+    color: #d4af37;
+  }
+
+  .mobile-menu-button.active .mobile-arrow {
+    border-top-color: #d4af37;
+  }
+}
+
+/* Reset some default styles */
+button {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}

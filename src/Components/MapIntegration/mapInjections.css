@@ -1,0 +1,105 @@
+/* Container */
+.attractions-container {
+    width: 85%;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f8f7f4; /* Matches the uploaded design */
+}
+
+.attractions-container h4 {
+    color: #d88b2c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.attractions-container h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Layout */
+.attractions-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 50px;
+}
+
+/* Google Map */
+.map-container {
+    flex: 1;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Attractions List */
+.attractions-list {
+    flex: 1;
+    background-color: #f2eee0; /* Dark background */
+    padding: 30px;
+    text-align: left;
+    border-radius: 8px;
+    height: 339px;
+    width: 80%;
+}
+
+.attractions-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.attractions-list ul li {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d88b2c;
+    padding: 15px;
+    border-bottom: 1px solid rgb(43, 42, 42);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.attractions-list ul li:last-child {
+    border-bottom: none;
+}
+
+.attractions-list ul li:hover {
+    color: black;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .attractions-content {
+        flex-direction: column;
+    }
+
+    .map-container {
+        width: 100%;
+    }
+
+    .attractions-list {
+        width: 85%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .attractions-container {
+        width: 86%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+   
+    .attractions-container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,180 @@
+.hero-container {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('../assets/d710cdf6-607a-4f1e-b107-522cf59caf24.avif'); */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  } 
+  
+  .hero-container h1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  
+  /* Fixed Enquire Button */
+  .fixed-enquire-btn {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: rotate(-90deg) translateY(-50%);
+    transform-origin: right;
+    background-color: #f0a500;
+    color: white;
+    border: none;
+    padding: 30px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 1000;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  /* Modal Styles */
+  .enquiry-modal {
+    position: fixed;
+    bottom: -100%;
+    right: 30px;
+    width: 400px;
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: bottom 0.5s ease-out;
+    z-index: 1001;
+  }
+  
+  .modal-open {
+    bottom: 30px;
+  }
+  
+  .modal-content {
+    padding: 2rem;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .modal-header h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    color: #E5A853;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+  }
+  
+  .enquiry-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form-input {
+    padding: 12px 15px;
+    border: none;
+    background-color: #f5f5f5;
+    font-size: 0.9rem;
+    color: #666;
+    width: 100%;
+  }
+  
+  .form-input::placeholder {
+    color: #999;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  
+  /* Custom Select Styling */
+  .custom-select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1em;
+  }
+  
+  .custom-select option {
+    padding: 12px;
+  }
+  
+  .custom-select option:checked,
+  .custom-select option:hover {
+    background-color: #007bff;
+    color: white;
+  } 
+  
+  .submit-btn {
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #333;
+  }
+  
+  /* Animation for closing */
+  .enquiry-modal.closing {
+    animation: slideRight 0.5s ease-in-out forwards;
+  }
+  
+  @keyframes slideRight {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .hero-container h1 {
+      font-size: 3rem;
+    }
+    
+    .enquiry-modal {
+      width: 100%;
+      right: 0;
+    }
+    
+    .modal-open {
+      bottom: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-container h1 {
+      font-size: 2rem;
+    }
+    
+    .fixed-enquire-btn {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+    }
+  }

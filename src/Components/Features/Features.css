@@ -1,0 +1,335 @@
+/* General Styling */
+.features-container {
+    width: 80%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    /* background-color: #f8f7f4;  */
+    padding: 44px;
+  }
+  
+  /* Layout for Image & Text Section */
+  .features-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 60px 0;
+  }
+
+  .icon-box img {
+    width: 35%;
+    height: 35%;
+  }
+  .icon-box img:hover {
+    width: 38%;
+    height: 38%;
+  }
+  
+  .features-image {
+    flex: 1;
+  }
+  
+  .features-image img {
+    width: 100%;
+    display: block;
+    animation: slideInLeft 1.5s ease-in-out;
+  }
+  
+  .features-text {
+    flex: 1;
+    padding: 40px;
+    animation: slideInRight 1.5s ease-in-out;
+    background: #ffffff;
+  }
+  
+  .features-text h4 {
+    color: #d88b2c;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .features-text h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .features-text h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d88b2c;
+    margin-bottom: 15px;
+  }
+  
+  .features-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .features-text ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features-text ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .check-icon {
+    color: #d88b2c;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  /* Icon Section */
+  .features-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    flex-wrap: wrap;
+    animation: slideInBottom 2s ease-in-out;
+    background: white; /* White background for icon section */
+  }
+  
+  /* Desktop View: Icons turn yellow on hover */
+  @media screen and (min-width: 769px) {
+    .icon-box {
+      width: 18%;
+      padding: 30px;
+      border: 1px solid #e0e0e0;
+      background: #F7F5F1;
+      transition: all 0.3s ease-in-out;
+      text-align: center;
+      cursor: pointer;
+    }
+  
+    .icon-box:hover {
+      background: #d88b2c;
+      color: white;
+    }
+  
+    .icon-box:hover h3,
+    .icon-box:hover p {
+      color: white;
+    }
+
+    /* .icon-box.highlight {
+        background: #d88b2c !important;
+        color: white;
+      }
+    
+      .icon-box.highlight h3,
+      .icon-box.highlight p {
+        color: white;
+      } */
+  }
+  
+  /* Tablet & Mobile View: Selected icon stays yellow */
+  @media screen and (max-width: 768px) {
+    .features-icons {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .icon-box {
+      width: 90%;
+      margin-bottom: 15px;
+    }
+  
+    /* Ensure the selected icon remains yellow */
+    /* .icon-box {
+      background: #d88b2c !important;
+      color: white;
+    } */
+  }
+  
+  .icon-box h3 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .icon-box p {
+    font-size: 14px;
+  }
+  
+  /* Amenities Section */
+  .features-amenities {
+    text-align: center;
+    padding: 30px;
+    background: #F7F5F1;
+    animation: slideInBottom 2s ease-in-out;
+  }
+  .features-amenities:hover{
+    background: #d88b2c !important;
+    color: white;
+
+  }
+  
+  .features-amenities h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .features-amenities p {
+    font-size: 14px;
+  }
+  
+  /* 🎯 Responsive Design */
+  @media screen and (max-width: 1024px) {
+    /* .features-container {
+      width: 90%;
+    } */
+    
+    .features-content {
+      flex-direction: column;
+    }
+  
+    .features-image {
+      width: 100%;
+    }
+  
+    .features-text {
+      width: 100%;
+      padding: 30px;
+    }
+  
+    .features-icons {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .icon-box {
+      width: 45%;
+      margin: 10px;
+    }
+
+    .icon-box:hover {
+        background: #d88b2c;
+        color: white;
+      }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .features-content {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .features-text h1 {
+      font-size: 32px;
+    }
+  
+    .features-text h5 {
+      font-size: 16px;
+    }
+  
+    .features-text p {
+      font-size: 14px;
+    }
+  
+    .features-icons {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .icon-box:hover {
+        background: #d88b2c;
+        color: white;
+      }
+
+    .icon-box {
+      width: 90%;
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* .features-container {
+      width: 90%;
+    } */
+  
+    .features-text h1 {
+      font-size: 28px;
+    }
+  
+    .features-text h5 {
+      font-size: 14px;
+    }
+  
+    .features-text p {
+      font-size: 13px;
+    }
+  
+    .features-icons {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .icon-box {
+      width: 80%;
+      margin-bottom: 10px;
+    }
+    .icon-box:hover {
+      background: #d88b2c;
+      color: white;
+    }
+  
+    .features-amenities h3 {
+      font-size: 16px;
+    }
+  
+    .features-amenities p {
+      font-size: 12px;
+    }
+  }
+  
+  /* Animations */
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInBottom {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply Animations */
+  .slide-left {
+    animation: slideInLeft 1.5s ease-in-out;
+  }
+  
+  .slide-right {
+    animation: slideInRight 1.5s ease-in-out;
+  }
+  
+  .slide-bottom {
+    animation: slideInBottom 2s ease-in-out;
+  }

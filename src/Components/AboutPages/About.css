@@ -1,0 +1,124 @@
+.about-container {
+  line-height: 1.6;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+   /* font-size: 81.25%; */
+   
+} 
+
+.section {
+  padding: 4rem 2rem;
+}
+
+.split-background {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.image-container {
+  flex: 1;
+  /* background-color: blue; */
+}
+
+.image-container img {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #444;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+h4 {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+p {
+  margin-bottom: 1rem;
+  text-size-adjust: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+#about-our-company {
+  background-color: #f9f9f9;
+}
+
+#our-vision {
+  background-color: #f0f0f0;
+}
+
+#our-mission {
+  background-color: #e9e9e9;
+}
+
+#what-sets-us-apart {
+  background-color: #f5f5f5;
+}
+
+#our-services {
+  background-color: #f0f0f0;
+}
+
+#why-invest {
+  background-color: #e9e9e9;
+}
+
+#location {
+  background-color: #f5f5f5;
+}
+
+#contact {
+  background-color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+  .split-background {
+    flex-direction: column;
+  }
+
+  .content, .image-container {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .image-container {
+    margin-top: 2rem;
+  }
+}
+
+

@@ -1,0 +1,71 @@
+.Sociallinks {
+  background-color: #1d1f25;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 14px;
+  min-height: 40px;
+  /* position: fixed; */
+}
+
+@media screen and (max-width: 1024px) {
+  .Sociallinks {
+      display: none;
+  }
+}
+
+.social-icons {
+  display: flex;
+  gap: 30px;
+  padding-left: 15px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #f0a500;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-info a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.contact-info a:hover {
+  color: #f0a500;
+}
+
+.contact-info span {
+  color: white;
+}
+
+.whatsapp {
+  color: #25D366;
+  font-weight: bold;
+}
+
+.whatsapp:hover {
+  color: #1ebe57;
+}
+
+/* WhatsApp icon */
+.whatsapp-icon {
+  color: #25D366;  /* WhatsApp green */
+  font-size: 18px;
+}
