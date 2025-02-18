@@ -1,7 +1,14 @@
 {
     "headers": [
       {
-        "source": "/public/(.*)",
+        "source": "/assets/(.*)",
+        "headers": [
+          { "key": "Cache-Control", "value": "max-age=0, must-revalidate" },
+          { "key": "Access-Control-Allow-Origin", "value": "*" }
+        ]
+      },
+      {
+        "source": "/videos/(.*)",
         "headers": [
           { "key": "Cache-Control", "value": "max-age=0, must-revalidate" },
           { "key": "Access-Control-Allow-Origin", "value": "*" }

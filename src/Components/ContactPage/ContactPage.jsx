@@ -26,7 +26,7 @@ const ContactUs = () => {
           </ul>
         </div>
         <div className="contact-info-image">
-          <img src="./public/assets/images/01.jpeg.jpg" alt="Contact Info" />
+          <img src="/assets/images/01.jpeg.jpg" alt="Contact Info" />
         </div>
       </section>
 

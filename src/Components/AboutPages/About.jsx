@@ -29,7 +29,7 @@ const About = () => {
 
       <section id="our-vision" className="section split-background">
         <div className="image-container">
-          <img src="./public/assets/images/04.jpeg.jpg" alt="Our Vision" />
+          <img src="/assets/images/04.jpeg.jpg" alt="Our Vision" />
         </div>
         <div className="content">
           <h2>Our Vision</h2>
@@ -67,13 +67,13 @@ const About = () => {
             and accommodations.</p>
         </div>
         <div className="image-container">
-          <img src="./public/assets/images/04.jpeg.jpg" alt="Our Mission" />
+          <img src="/assets/images/04.jpeg.jpg" alt="Our Mission" />
         </div>
       </section>
 
       <section id="what-sets-us-apart" className="section split-background">
         <div className="image-container">
-          <img src="./public/assets/images/02.jpeg.jpg" alt="Our Mission" />
+          <img src="/assets/images/02.jpeg.jpg" alt="Our Mission" />
         </div>
         <div className="content">
           <h2>What sets us apart?</h2>
@@ -98,13 +98,13 @@ const About = () => {
           </ul>
         </div>
         <div className="image-container">
-          <img src="./public/assets/images/05.jpeg.jpg" alt="Our Mission" />
+          <img src="/assets/images/05.jpeg.jpg" alt="Our Mission" />
         </div>
       </section>
 
       <section id="why-invest" className="section split-background">
       <div className="image-container">
-          <img src="./public/assets/images/01.jpeg.jpg" alt="Rishikesh Location" />
+          <img src="/assets/images/01.jpeg.jpg" alt="Rishikesh Location" />
         </div>
         <div className="content">
         <h2>Why invest in our company?</h2>

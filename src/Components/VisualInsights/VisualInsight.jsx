@@ -3,10 +3,10 @@ import "./VisualInsight.css";
 
 // Local video file paths
 const videos = [
-  { src: "./public/videos/video1.mp4" },
-  { src: "./public/videos/video2.mp4" },
-  { src: "./public/videos/video3.mp4" },
-  { src: "./public/videos/video2.mp4" },
+  { src: "./videos/video1.mp4" },
+  { src: "./videos/video2.mp4" },
+  { src: "./videos/video3.mp4" },
+  { src: "./videos/video2.mp4" },
 ];
 
 const VisualInsight = () => {

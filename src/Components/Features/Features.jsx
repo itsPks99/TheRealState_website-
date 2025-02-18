@@ -8,7 +8,7 @@ const Features = () => {
       {/* Section 1: Image & Text */}
       <div className="features-content">
         <div className="features-image slide-left">
-          <img src="../public/assets/537011899.jpg" alt="Luxury Homes" />
+          <img src="./assets/537011899.jpg" alt="Luxury Homes" />
         </div>
 
         <div className="features-text slide-right">
@@ -41,22 +41,22 @@ const Features = () => {
       {/* Section 2: Features/Icons */}
       <div className="features-icons slide-bottom">
         <div className="icon-box highlight">
-          <img src="../public/assets/Homeicon.png" alt="Auramah Valley" />
+          <img src="./assets/Homeicon.png" alt="Auramah Valley" />
           <h3>AURAMAH VALLEY</h3>
           <p>India's #1 Hillside Community</p>
         </div>
         <div className="icon-box highlight">
-          <img src="../public/assets/LocationIcon.png" alt="Location" />
+          <img src="./assets/LocationIcon.png" alt="Location" />
           <h3>THE LOCATION</h3>
           <p>Naldehra, Shimla</p>
         </div>
         <div className="icon-box">
-          <img src="../public/assets/AreaIcon.png" alt="Area" />
+          <img src="./assets/AreaIcon.png" alt="Area" />
           <h3>THE AREA</h3>
           <p>1500 SQ. FT. - 2150 SQ. FT.</p>
         </div>
         <div className="icon-box">
-          <img src="../public/assets/PricingIcon.png" alt="Pricing" />
+          <img src="./assets/PricingIcon.png" alt="Pricing" />
           <h3>THE PRICING</h3>
           <p>Rs. 1.60 Cr. to 3.10 Cr.</p>
         </div>
