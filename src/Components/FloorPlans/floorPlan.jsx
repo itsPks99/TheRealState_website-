@@ -6,19 +6,19 @@ const slides = [
     title: "3BHK APARTMENT",
     area: "2150 SQ.FT*",
     price: "2.20 CR*",
-    imgSrc: "./assets/537011899.jpg",
+    imgSrc: "./assets/images/01.jpeg.jpg",
   },
   {
     title: "4BHK APARTMENT",
     area: "2500 SQ.FT*",
     price: "3.00 CR*",
-    imgSrc: "./assets/426110608.jpg",
+    imgSrc: "./assets/images/02.jpeg.jpg",
   },
   {
     title: "VILLA",
     area: "3000 SQ.FT*",
     price: "4.50 CR*",
-    imgSrc: "./assets/5824c18078a689aa4e2ac622b69dc3cf.webp",
+    imgSrc: "./assets/images/04.jpeg.jpg",
   },
 ];
 
