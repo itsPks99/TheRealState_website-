@@ -10,7 +10,7 @@ const Menu = () => {
   const menuItems = [
     // { title: "HOME", link: "./" },
     { title: "ABOUT US", link: "/about", dropdown: ["Our Mission", "Our Vision", "Location" ] },
-    { title: "LOCATION", link: "/contact" },
+    { title: "LOCATION", link: "/location" },
     { title: "BUDGET", link: "/budget" },
     { title: "E BROCHURE", link: "/e-brochure.pdf", isPDF: true },
     { title: "CONTACT US", link: "/contact" }
