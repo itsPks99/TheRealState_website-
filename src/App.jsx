@@ -13,7 +13,7 @@ import Header from './Components/HeaderSection/header';
 import MapInjection from './Components/MapIntegration/mapInjections';
 import NewsArticles from './Components/NewsArticles/newArticles';
 import Resideus from './Components/ResideWithUs/resideus';
-import SocialLinks from './Components/SocialLinks/SocialLinks';
+import SocialLinks from './Components/Sociallinks/socialLinks';
 import Testimonial from './Components/Testimonial/testimonial';
 import VisualInsight from './Components/VisualInsights/VisualInsight';
 
