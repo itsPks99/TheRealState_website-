@@ -35,13 +35,13 @@ const Features = () => {
       <div className="features-icons slide-bottom">
         <div className="icon-box highlight">
           <img src="/assets/images/Homeicon.png" alt="Auramah Valley" />
-          <h3>AURAMAH VALLEY</h3>
+          <h3>YOGLYF</h3>
           <p>India's #1 Hillside Community</p>
         </div>
         <div className="icon-box highlight">
           <img src="/assets/images/LocationIcon.png" alt="Location" />
           <h3>THE LOCATION</h3>
-          <p>Naldehra, Shimla</p>
+          <p>UTTRAKHAND RISHIKESH</p>
         </div>
         <div className="icon-box">
           <img src="./assets/AreaIcon.png" alt="Area" />

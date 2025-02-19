@@ -37,37 +37,37 @@ const Resideus = () => {
       text: 'Auramah Valley offers an exclusive service to its residents by providing them with a helicopter facility. The residents of the Auramah Valley can easily choose to fly smart and reach other destinations in North India within a short time or they may use it for a leisurely purpose of sightseeing.',
       image: '/assets/images/02.jpeg.jpg'
     },
-    security: {
-      title: 'SPORTS ACTIVITY',
-      subtitle: 'STAY FIT',
-      text: 'Nature is the best healer as it helps us to revive, stimulate and rejuvenate our body, mind and soul. At Auramah Valley, you can enjoy the scenic panoramas, diverse landscapes or take a hike and explore the natural world around you.',
-      image: '/assets/5824c18078a689aa4e2ac622b69dc3cf.webp'
-    },
-    dining: {
-      title: 'HELICOPTER CLUB',
-      subtitle: 'SAFE TRANSFERS',
-      text: 'Auramah Valley offers an exclusive service to its residents by providing them with a helicopter facility. The residents of the Auramah Valley can easily choose to fly smart and reach other destinations in North India within a short time or they may use it for a leisurely purpose of sightseeing.',
-      image: '/assets/426110608.jpg'
-    },
-    manor: {
-      title: 'SPORTS ACTIVITY',
-      subtitle: 'STAY FIT',
-      text: 'Nature is the best healer as it helps us to revive, stimulate and rejuvenate our body, mind and soul. At Auramah Valley, you can enjoy the scenic panoramas, diverse landscapes or take a hike and explore the natural world around you.',
-      image: '/assets/5824c18078a689aa4e2ac622b69dc3cf.webp'
-    },
+    // security: {
+    //   title: 'SPORTS ACTIVITY',
+    //   subtitle: 'STAY FIT',
+    //   text: 'Nature is the best healer as it helps us to revive, stimulate and rejuvenate our body, mind and soul. At Auramah Valley, you can enjoy the scenic panoramas, diverse landscapes or take a hike and explore the natural world around you.',
+    //   image: '/assets/5824c18078a689aa4e2ac622b69dc3cf.webp'
+    // },
+    // dining: {
+    //   title: 'HELICOPTER CLUB',
+    //   subtitle: 'SAFE TRANSFERS',
+    //   text: 'Auramah Valley offers an exclusive service to its residents by providing them with a helicopter facility. The residents of the Auramah Valley can easily choose to fly smart and reach other destinations in North India within a short time or they may use it for a leisurely purpose of sightseeing.',
+    //   image: '/assets/426110608.jpg'
+    // },
+    // manor: {
+    //   title: 'SPORTS ACTIVITY',
+    //   subtitle: 'STAY FIT',
+    //   text: 'Nature is the best healer as it helps us to revive, stimulate and rejuvenate our body, mind and soul. At Auramah Valley, you can enjoy the scenic panoramas, diverse landscapes or take a hike and explore the natural world around you.',
+    //   image: '/assets/5824c18078a689aa4e2ac622b69dc3cf.webp'
+    // },
 
-    housekeeping: {
-      title: 'THE CLUB HOUSE',
-      subtitle: 'BE ENTERTAINED',
-      text: 'The clubhouse at Auramah Valley may have a stiff upper lip, but its got a soul that is warm and welcoming. You can begin your evening in the billiards room or in the leisurely card rooms and then enjoy sitting by the refreshing pool. You may also choose to relax and unwind yourself at "Aura" - the spa.',
-      image: '/assets/images/01.jpeg.jpg'
-    },
-    bar: {
-      title: 'In House Clinic',
-      subtitle: 'SAFE TRANSFERS',
-      text: 'Auramah Valley offers an exclusive service to its residents by providing them with a helicopter facility. The residents of the Auramah Valley can easily choose to fly smart and reach other destinations in North India within a short time or they may use it for a leisurely purpose of sightseeing.',
-      image: '/assets/images/01.jpeg.jpg'
-    },
+    // housekeeping: {
+    //   title: 'THE CLUB HOUSE',
+    //   subtitle: 'BE ENTERTAINED',
+    //   text: 'The clubhouse at Auramah Valley may have a stiff upper lip, but its got a soul that is warm and welcoming. You can begin your evening in the billiards room or in the leisurely card rooms and then enjoy sitting by the refreshing pool. You may also choose to relax and unwind yourself at "Aura" - the spa.',
+    //   image: '/assets/images/01.jpeg.jpg'
+    // },
+    // bar: {
+    //   title: 'In House Clinic',
+    //   subtitle: 'SAFE TRANSFERS',
+    //   text: 'Auramah Valley offers an exclusive service to its residents by providing them with a helicopter facility. The residents of the Auramah Valley can easily choose to fly smart and reach other destinations in North India within a short time or they may use it for a leisurely purpose of sightseeing.',
+    //   image: '/assets/images/01.jpeg.jpg'
+    // },
   };
 
   const tabs = [
