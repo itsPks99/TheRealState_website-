@@ -1,8 +1,16 @@
 import React from 'react';
 import { FaEnvelope, FaFacebookF, FaInstagram, FaLinkedinIn, FaPhone, FaTwitter } from 'react-icons/fa';
+import { useNavigate } from "react-router-dom";
 import './Footer.css';
 
+
 const Footer = () => {
+  const navigate = useNavigate();
+  const handleClick =(newValue) => { 
+   navigate(newValue);
+   window.scrollTo(0, 0);
+
+  }
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -21,11 +29,10 @@ const Footer = () => {
         <div className="footer-section navigation">
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="/About">About Us</a></li>
-            <li><a href="/Location">Location</a></li>
-            <li><a href="/Budget">Budget</a></li>
-            <li><a href="/Contact">Contact</a></li>
-            {/* <li><a href="/faq">FAQ</a></li> */}
+            <li onClick={() => handleClick("/about")}>About Us</li>
+            <li onClick={() => handleClick("/location")}>Location</li>
+            <li onClick={() => handleClick("/budget")}>Budget</li>
+            <li onClick={() => handleClick("/contact")}>Contact</li>
           </ul>
         </div>
 
