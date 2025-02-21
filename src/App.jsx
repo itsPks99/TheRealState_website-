@@ -13,6 +13,7 @@ import Header from './Components/HeaderSection/header';
 import MapInjection from './Components/MapIntegration/mapInjections';
 import NewsArticles from './Components/NewsArticles/newArticles';
 import Resideus from './Components/ResideWithUs/resideus';
+import Sociallinks from './Components/SocialLinks/SocialLinks';
 import Testimonial from './Components/Testimonial/testimonial';
 import VisualInsight from './Components/VisualInsights/VisualInsight';
 
@@ -23,6 +24,7 @@ import ContactPage from './Components/ContactPage/ContactPage';
 function App() {
   return (
     <>
+      <Sociallinks />
       <Header />
       <Routes>
         <Route
